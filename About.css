@@ -1,0 +1,101 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper-div{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#logo-nav-div{
+    width: 100%;
+    min-height: 0px;
+    display: flex;
+    align-items: center;
+    background-color: violet;
+    margin-bottom: 10px;
+}
+#logo-div{
+    margin-top: 10px;
+    width: auto;
+    float: left;
+    line-height: 30px;
+    padding-left: 2%;
+}
+#nav-div{
+    flex: auto;
+    width: 50%;
+    min-height: 50px;
+    font-size: 20px;
+    float: right;
+    text-align: right;
+    padding-right: 2%;
+    line-height: 50px;
+}
+
+#header-banner {
+    width: 100%;
+    font-size: 40px;
+    min-height: 193px;
+    background-color: violet;
+    line-height: 193px;
+    margin-bottom: 10px;
+}
+
+#header-design{
+    width: 100%;
+    min-height: 20px;
+    background-color: white;
+    line-height: 100px;
+    background-image: url("https://cdnblog.picsart.com/2022/03/2-7-780x520.jpg");
+    background-size: cover;
+    background-position: no-repeat;
+    margin-bottom: 10px;
+}
+
+#main-div {
+    width: 100%;
+    min-height: 470px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+#bodyarea-div {
+    width: 100%;
+    min-height: 470px;
+    font-size: 20px;
+    background-color: violet;
+    float: right;
+    line-height: 400px;
+}
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: black;
+}
+
+#footer-div{
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-color: violet;
+    justify-content: space-between;
+    line-height: 50px;
+    margin-bottom: 10px;
+    padding-right: 0 20px;
+}
+
+#wrapper-div {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
